@@ -1,0 +1,21 @@
+nav {
+  height: 100vh;
+  width: 25vw;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  .navDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 2rem;
+    p {
+      font-size: 0.8rem;
+    }
+    .albumLogo {
+      width: 20px;
+      height: auto;
+    }
+  }
+}
