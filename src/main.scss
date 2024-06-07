@@ -1,6 +1,7 @@
 // import styles components
 @import "./styles/header.scss";
 @import "./styles/nav.scss";
+@import "./styles/home.scss";
 
 // import font
 @import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
@@ -15,4 +16,19 @@ body {
   background-color: black;
   color: white;
   display: flex;
+}
+
+#root {
+  display: flex;
+
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    align-items: center;
+  }
+  .mainImg {
+    width: 300px;
+    height: auto;
+  }
 }
