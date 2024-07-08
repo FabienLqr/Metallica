@@ -17,7 +17,7 @@ function CardGroupe() {
       role: "Chanteur et Guitare rythmique",
       description: "James Hetfield est né le 18 novembre 1962",
       quote:
-        "I was pretty much afraid of everything. Afraid of the world, afraid of speaking...",
+        "I was pretty much afraid of everything. Afraid of the world, afraid of speaking. You know really shy kid, music is a way to speak, as simple as that. I could either just Journal write poetry, write whatever was in my head and sit down drum a few chords and put that together and that's me, that's me telling the world about me when I can't do it on my own so music was the voice I didn't have.",
     },
     {
       img: Lars,
@@ -59,7 +59,7 @@ function CardGroupe() {
                 <p className="role">{card.role}</p>
                 <article className="grp-description">
                   <p>{card.description}</p>
-                  <blockquote className="james-quote">
+                  <blockquote className="quote">
                     "{card.quote}"
                   </blockquote>
                 </article>
