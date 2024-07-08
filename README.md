@@ -1,8 +1,5 @@
-# React + Vite
+# Metallica
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is designed to enhance my frontend development skills, focusing on a topic that I am passionate about.
+I'm a Metallica fan since a few years and give honor to this amazing band motivated me to do this.
+In this website you can view all Metallica's Album and all songs of each album.
