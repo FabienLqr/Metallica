@@ -2,6 +2,7 @@
 @import "./styles/header.scss";
 @import "./styles/nav.scss";
 @import "./styles/home.scss";
+@import "./styles/cardMember.scss";
 
 // import font
 @import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
@@ -9,7 +10,6 @@
 * {
   margin: 0;
   font-size: 1.25rem;
-  font-family: "Metal mania";
 }
 
 body {
@@ -31,4 +31,8 @@ body {
     width: 300px;
     height: auto;
   }
+}
+
+h2, h3{
+  font-family: "Metal mania";
 }
