@@ -23,7 +23,11 @@ import lulu from "../assets/Images/Lulu.jpg";
 function Nav() {
   return (
     <>
+    <header>
+          <h1>Metallica</h1>
+        </header>
       <nav>
+      
         <Link to="/">
           <img src={logo} alt="Logo de l'acceuil" className="albumLogo" />
           <p>Acceuil</p>
@@ -141,14 +145,3 @@ function Nav() {
 }
 
 export default Nav;
-
-/*
-
-{albums.map((album) => (
-          <div key={album.id} className="navDiv">
-            <img src={album.img} alt={album.name} className="albumLogo" />
-            <p>{album.name}</p>
-          </div>
-        ))}
-
-*/

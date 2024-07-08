@@ -20,12 +20,14 @@ body {
 
 #root {
   display: flex;
+  flex-direction: row;
 
   main {
     display: flex;
     flex-direction: column;
     width: 70vw;
     align-items: center;
+    border-left: 0.5px solid rgba(255, 255, 255, 0.375);
   }
   .mainImg {
     width: 300px;
@@ -33,6 +35,7 @@ body {
   }
 }
 
-h2, h3{
+h2,
+h3 {
   font-family: "Metal mania";
 }

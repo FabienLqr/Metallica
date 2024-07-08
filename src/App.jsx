@@ -1,13 +1,13 @@
 // import utilities
 // import components
-import Header from "./components/Header";
+import Nav from "./components/Nav";
 // import style
 import "./main.scss";
 
 function App() {
   return (
     <>
-      <Header />
+      <Nav />
     </>
   );
 }
