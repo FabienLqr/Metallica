@@ -24,7 +24,7 @@ const albums = [
   },
   {
     id: 2,
-    name: "Kill'emAll",
+    name: "Kill'em All",
     img: kta,
   },
   {
