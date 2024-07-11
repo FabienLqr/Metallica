@@ -33,7 +33,11 @@ function Home() {
             création de communautés durables en soutenant l’éducation de la
             main-d’œuvre, la lutte contre la faim et d’autres services locaux
             essentiels. Vous pouvez acceder au site de la fondation via{" "}
-            <a href="https://www.allwithinmyhands.org/">
+            <a
+              href="https://www.allwithinmyhands.org/"
+              target="blank"
+              alt="Lien vers le site de la fondation All Within My Hand"
+            >
               <b>ce lien</b>
             </a>
           </p>

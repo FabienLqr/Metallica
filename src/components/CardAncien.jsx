@@ -29,7 +29,7 @@ function AncienMembre() {
       name: "Jason Newsted",
       role: "Bassiste",
       description: "Jason NEWSTED est né le 4 mars 1963",
-      note: "Il prit la suite de Burton a la basse de 1986 jusqu'au 2001 ou il quitta le groupe",
+      note: "Il prit la suite de Burton a la basse de 1986 jusqu'au 2001 ou il quitta le",
     },
   ];
   return (

@@ -53,7 +53,7 @@ function CardGroupe() {
               }`}
               key={index}
             >
-              <img src={card.img} className="card-img" alt={card.name} />
+              <img src={card.img} className="card-img" alt={card.name} key={index}/>
               <section>
                 <h3>{card.name}</h3>
                 <p className="role">{card.role}</p>
