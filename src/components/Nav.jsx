@@ -2,6 +2,9 @@
 //import utilities
 import { Link, Outlet } from "react-router-dom";
 
+// import component
+import Footer from "../components/Footer";
+
 // import datas
 import logo from "../assets/Images/logo.jpg";
 import kta from "../assets/Images/KILL'EMALL.jpg";
@@ -23,11 +26,10 @@ import lulu from "../assets/Images/Lulu.jpg";
 function Nav() {
   return (
     <>
-    <header>
-          <h1>Metallica</h1>
-        </header>
+      <header>
+        <h1>Metallica</h1>
+      </header>
       <nav>
-      
         <Link to="/">
           <img src={logo} alt="Logo de l'acceuil" className="albumLogo" />
           <p>Acceuil</p>
@@ -139,6 +141,7 @@ function Nav() {
       </nav>
       <main>
         <Outlet />
+        <Footer />
       </main>
     </>
   );
