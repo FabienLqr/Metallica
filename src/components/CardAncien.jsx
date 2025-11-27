@@ -49,7 +49,7 @@ function AncienMembre() {
                 <p className="role">{card.role}</p>
                 <article className="grp-description">
                   <p>{card.description}</p>
-                  <blocknote className="note">"{card.note}"</blocknote>
+                  <blocknote className="note">{card.note}</blocknote>
                 </article>
               </section>
             </div>
