@@ -6,11 +6,11 @@ function Seek() {
         <time dateTime="PT6M55S">6&apos; 55&quot;</time>
       </p>
       <section>
-        <h4>Intro</h4>
+        <h4>[Intro]</h4>
         <p>All right</p>
       </section>
       <section>
-        <h4>Verse 1</h4>
+        <h4>[Verse 1]</h4>
         <p>
           We&apos;re scanning the scene
           <br />
@@ -26,7 +26,7 @@ function Seek() {
         </p>
       </section>
       <section>
-        <h4>Pre-Chorus</h4>
+        <h4>[Pre-Chorus]</h4>
         <p>
           Running, on our way, hiding, you will pay <br />
           Dying, one thousand deaths
@@ -36,7 +36,7 @@ function Seek() {
         </p>
       </section>
       <section>
-        <h4>Chorus</h4>{" "}
+        <h4>[Chorus]</h4>{" "}
         <p>
           Searching, seek and destroy <br />
           Searching, seek and destroy!
@@ -46,7 +46,7 @@ function Seek() {
         </p>
       </section>
       <section>
-        <h4>Verse 2</h4>
+        <h4>[Verse 2]</h4>
         <p>
           There is no escape <br />
           And that&apos;s for sure <br />
@@ -59,7 +59,7 @@ function Seek() {
         </p>
       </section>
       <section>
-        <h4>Pre-Chorus</h4>
+        <h4>[Pre-Chorus]</h4>
         <p>
           Running, on our way, hiding, you will pay <br />
           Dying, one thousand deaths <br />
@@ -68,7 +68,7 @@ function Seek() {
         </p>
       </section>
       <section>
-        <h4>Chorus</h4>
+        <h4>[Chorus]</h4>
         <p>
           Searching, seek and destroy <br />
           Searching, seek and destroy! <br />
@@ -77,13 +77,13 @@ function Seek() {
         </p>
       </section>
       <section>
-        <h4>Instrumental Break</h4>
+        <h4>[Instrumental Break]</h4>
       </section>
       <section>
-        <h4>Guitar Solo</h4>
+        <h4>[Guitar Solo]</h4>
       </section>
       <section>
-        <h4>Verse 3</h4>
+        <h4>[Verse 3]</h4>
         <p>
           Our brains are on fire
           <br /> With the feeling to kill
@@ -98,7 +98,7 @@ function Seek() {
         </p>
       </section>
       <section>
-        <h4>Pre-Chorus</h4>
+        <h4>[Pre-Chorus]</h4>
         <p>
           Running, on our way, hiding, you will pay
           <br /> Dying, one thousand deaths
@@ -107,7 +107,7 @@ function Seek() {
         </p>
       </section>
       <section>
-        <h4>Chorus</h4>
+        <h4>[Chorus]</h4>
         <p>
           Searching, seek and destroy
           <br /> Searching, seek and destroy!
@@ -116,7 +116,7 @@ function Seek() {
         </p>
       </section>
       <section>
-        <h4>Guitar Solo</h4>
+        <h4>[Guitar Solo]</h4>
       </section>
     </>
   );
