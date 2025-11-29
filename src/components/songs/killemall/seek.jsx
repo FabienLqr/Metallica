@@ -1,10 +1,12 @@
 function Seek() {
   return (
     <>
-      <h3>Seek & Destroy</h3>
-      <p>
-        <time dateTime="PT6M55S">6&apos; 55&quot;</time>
-      </p>
+      <header className="albumHeader">
+        <h3>Seek & Destroy</h3>
+        <p>
+          <time dateTime="PT6M55S">6&apos; 55&quot;</time>
+        </p>
+      </header>
       <section>
         <h4>[Intro]</h4>
         <p>All right</p>

@@ -21,7 +21,7 @@ function KillemAll() {
             mai 1983.
           </p>
         </article>
-        <article>
+        <article className="song">
           <Seek />
         </article>
       </section>
