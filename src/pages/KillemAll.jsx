@@ -1,5 +1,6 @@
 //import des musiques
 import Seek from "../components/songs/killemall/seek.jsx";
+import Militia from "../components/songs/killemall/militia.jsx";
 
 // import des images
 import kill from "../assets/Images/KILL'EMALL.jpg";
@@ -20,6 +21,7 @@ function KillemAll() {
         </article>
         <article className="song">
           <Seek />
+          <Militia />
         </article>
       </section>
     </>
