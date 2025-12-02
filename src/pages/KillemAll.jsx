@@ -8,6 +8,7 @@ import Horsemen from "../components/songs/killemall/horsemen.jsx";
 import Light from "../components/songs/killemall/light.jsx";
 import Jump from "../components/songs/killemall/jump.jsx";
 import Whiplash from "../components/songs/killemall/whiplash.jsx";
+import Anesthesia from "../components/songs/killemall/anesthesia.jsx";
 
 // import des images
 import kill from "../assets/Images/KILL'EMALL.jpg";
@@ -37,6 +38,7 @@ function KillemAll() {
           <Light />
           <Jump />
           <Whiplash />
+          <Anesthesia />
         </article>
       </section>
     </>
