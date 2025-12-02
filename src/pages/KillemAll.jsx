@@ -5,6 +5,7 @@ import Motorbreath from "../components/songs/killemall/motorbreath.jsx";
 import Phantom from "../components/songs/killemall/phantom.jsx";
 import Remorse from "../components/songs/killemall/remorse.jsx";
 import Horsemen from "../components/songs/killemall/horsemen.jsx";
+import Light from "../components/songs/killemall/light.jsx";
 
 // import des images
 import kill from "../assets/Images/KILL'EMALL.jpg";
@@ -31,6 +32,7 @@ function KillemAll() {
           <Phantom />
           <Remorse />
           <Horsemen />
+          <Light />
         </article>
       </section>
     </>
