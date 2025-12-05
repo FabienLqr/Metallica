@@ -27,7 +27,7 @@ function KillemAll() {
             semaines en mai 1983.
           </p>
         </article>
-        <article className="song">
+        <article className="songs">
           {/*il faut une gestion des musiques pour n'en afficher qu'une a la fois, menu deroulant? avec peut etre seek en valeur par defaut?*/}
           <Seek />
           <Militia />
