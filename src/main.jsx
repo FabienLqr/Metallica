@@ -48,7 +48,7 @@ const router = createBrowserRouter([
           { path: "/kill_em_all/seek&destroy", element: <Seek /> },
           { path: "/kill_em_all/metal_militia", element: <Militia /> },
           { path: "/kill_em_all/motorbreath", element: <Motorbreath /> },
-          { path: "/kill_em_all/Phantom", element: <Phantom /> },
+          { path: "/kill_em_all/phantom_lord", element: <Phantom /> },
           { path: "/kill_em_all/no_remorse", element: <Remorse /> },
           { path: "/kill_em_all/the_four_horsemen", element: <Horsemen /> },
           { path: "/kill_em_all/hit_the_light", element: <Light /> },
