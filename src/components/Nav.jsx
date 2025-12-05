@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 //import utilities
 import { Link, Outlet } from "react-router-dom";
 
@@ -40,7 +39,7 @@ function Nav() {
             alt="Logo de l'album Kill'em All"
             className="albumLogo"
           />
-          <p>Kill'em all</p>{" "}
+          <p>Kill&apos;em all</p>{" "}
         </Link>
         <Link to="/ride_the_lightning">
           <img
