@@ -19,7 +19,7 @@ function KillemAll() {
           </p>
         </article>
         <article className="songs">
-          <p>
+          <p className="links">
             <Link to="/kill_em_all/seek&destroy">1- Seek & Destroy</Link>
             <Link to="/kill_em_all/metal_militia">2- Metal Militia</Link>
             <Link to="/kill_em_all/motorbreath">3- Motorbreath</Link>
