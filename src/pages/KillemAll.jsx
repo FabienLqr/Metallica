@@ -1,14 +1,5 @@
-//import des musiques
-import Seek from "../components/songs/killemall/seek.jsx";
-import Militia from "../components/songs/killemall/militia.jsx";
-import Motorbreath from "../components/songs/killemall/motorbreath.jsx";
-import Phantom from "../components/songs/killemall/phantom.jsx";
-import Remorse from "../components/songs/killemall/remorse.jsx";
-import Horsemen from "../components/songs/killemall/horsemen.jsx";
-import Light from "../components/songs/killemall/light.jsx";
-import Jump from "../components/songs/killemall/jump.jsx";
-import Whiplash from "../components/songs/killemall/whiplash.jsx";
-import Anesthesia from "../components/songs/killemall/anesthesia.jsx";
+//import utile
+import { Link, Outlet } from "react-router-dom";
 
 // import des images
 import kill from "../assets/Images/KILL'EMALL.jpg";
@@ -29,16 +20,9 @@ function KillemAll() {
         </article>
         <article className="songs">
           {/*il faut une gestion des musiques pour n'en afficher qu'une a la fois, menu deroulant? avec peut etre seek en valeur par defaut?*/}
-          <Seek />
-          <Militia />
-          <Motorbreath />
-          <Phantom />
-          <Remorse />
-          <Horsemen />
-          <Light />
-          <Jump />
-          <Whiplash />
-          <Anesthesia />
+          <Link to="/kill_em_all/seek&destroy">Seek & Destroy</Link>
+          <Link to="/kill_em_all/metal_militia">Metal Militia</Link>
+          <Outlet />
         </article>
       </section>
     </>

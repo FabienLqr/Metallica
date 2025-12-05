@@ -21,6 +21,18 @@ import SmTwo from "./pages/SmTwo";
 import Garage from "./pages/Garage";
 import Lulu from "./pages/Lulu";
 
+//import musics KEA
+import Seek from "./components/songs/killemall/seek";
+import Militia from "./components/songs/killemall/militia";
+import Motorbreath from "./components/songs/killemall/motorbreath.jsx";
+import Phantom from "./components/songs/killemall/phantom.jsx";
+import Remorse from "./components/songs/killemall/remorse.jsx";
+import Horsemen from "./components/songs/killemall/horsemen.jsx";
+import Light from "./components/songs/killemall/light.jsx";
+import Jump from "./components/songs/killemall/jump.jsx";
+import Whiplash from "./components/songs/killemall/whiplash.jsx";
+import Anesthesia from "./components/songs/killemall/anesthesia.jsx";
+
 const router = createBrowserRouter([
   {
     element: <App />,
@@ -32,6 +44,18 @@ const router = createBrowserRouter([
       {
         path: "/kill_em_all",
         element: <KillemAll />,
+        children: [
+          { path: "/kill_em_all/seek&destroy", element: <Seek /> },
+          { path: "/kill_em_all/metal_militia", element: <Militia /> },
+          { path: "/kill_em_all/motorbreath", element: <Motorbreath /> },
+          { path: "/kill_em_all/Phantom", element: <Phantom /> },
+          { path: "/kill_em_all/no_remorse", element: <Remorse /> },
+          { path: "/kill_em_all/the_four_horsemen", element: <Horsemen /> },
+          { path: "/kill_em_all/hit_the_light", element: <Light /> },
+          { path: "/kill_em_all/jump_in_the_fire", element: <Jump /> },
+          { path: "/kill_em_all/whiplash", element: <Whiplash /> },
+          { path: "/kill_em_all/anesthesia", element: <Anesthesia /> },
+        ],
       },
       {
         path: "/ride_the_lightning",
