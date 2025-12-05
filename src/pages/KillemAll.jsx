@@ -19,18 +19,21 @@ function KillemAll() {
           </p>
         </article>
         <article className="songs">
-          {/*il faut une gestion des musiques pour n'en afficher qu'une a la fois, menu deroulant? avec peut etre seek en valeur par defaut?*/}
           <p>
-            <Link to="/kill_em_all/seek&destroy">Seek & Destroy</Link>
-            <Link to="/kill_em_all/metal_militia">Metal Militia</Link>
-            <Link to="/kill_em_all/motorbreath">Motorbreath</Link>
-            <Link to="/kill_em_all/phantom_lord">Phantom Lord</Link>
-            <Link to="/kill_em_all/no_remorse">No Remorse</Link>
-            <Link to="/kill_em_all/the_four_horsemen">The Four Hoursemen</Link>
-            <Link to="/kill_em_all/hit_the_light">Hit the Light</Link>
-            <Link to="/kill_em_all/jump_in_the_fire">Jump in the Fire</Link>
-            <Link to="/kill_em_all/whiplash">Whiplash</Link>
-            <Link to="/kill_em_all/anesthesia">Anesthesia - Pulling Teeth</Link>
+            <Link to="/kill_em_all/seek&destroy">1- Seek & Destroy</Link>
+            <Link to="/kill_em_all/metal_militia">2- Metal Militia</Link>
+            <Link to="/kill_em_all/motorbreath">3- Motorbreath</Link>
+            <Link to="/kill_em_all/phantom_lord">4- Phantom Lord</Link>
+            <Link to="/kill_em_all/no_remorse">5-No Remorse</Link>
+            <Link to="/kill_em_all/the_four_horsemen">
+              6- The Four Hoursemen
+            </Link>
+            <Link to="/kill_em_all/hit_the_light">7- Hit the Light</Link>
+            <Link to="/kill_em_all/jump_in_the_fire">8- Jump in the Fire</Link>
+            <Link to="/kill_em_all/whiplash">9- Whiplash</Link>
+            <Link to="/kill_em_all/anesthesia">
+              10- Anesthesia - Pulling Teeth
+            </Link>
           </p>
           <Outlet />
         </article>
