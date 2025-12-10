@@ -1,3 +1,6 @@
+import Player from "../../Player";
+import militiaMusic from "../../../assets/musics/killemall/metalMilitia.mp3";
+
 function Militia() {
   return (
     <>
@@ -6,6 +9,7 @@ function Militia() {
         <p>
           <time dateTime="PT5M11S">5&apos; 11&quot;</time>
         </p>
+        <Player music={militiaMusic} />
       </header>
       <section>
         <h4>[Verse 1]</h4>
