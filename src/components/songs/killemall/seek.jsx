@@ -1,3 +1,6 @@
+import Player from "../../Player";
+import seekMusic from "../../../assets/musics/killemall/seekAndDestroy.mp3";
+
 function Seek() {
   return (
     <>
@@ -6,6 +9,7 @@ function Seek() {
         <p>
           <time dateTime="PT6M55S">6&apos; 55&quot;</time>
         </p>
+        <Player music={seekMusic} />
       </header>
       <section>
         <h4>[Intro]</h4>
