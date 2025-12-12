@@ -1,3 +1,6 @@
+import Player from "../../Player";
+import whiplashMusic from "../../../assets/musics/killemall/whiplash.mp3";
+
 function Whiplash() {
   return (
     <>
@@ -6,6 +9,7 @@ function Whiplash() {
         <p>
           <time dateTime="PT4M09S">4&apos; 09&quot;</time>
         </p>
+        <Player music={whiplashMusic}/>
       </header>
       <section>
         <h4>[Verse 1]</h4>
