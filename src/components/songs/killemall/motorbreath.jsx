@@ -1,5 +1,5 @@
 import Player from "../../Player";
-import motor from "../../../assets/musics/killemall/motorbreath.mp3";
+import motorbreathMusic from "../../../assets/musics/killemall/motorbreath.mp3";
 
 function Motorbreath() {
   return (
@@ -9,7 +9,7 @@ function Motorbreath() {
         <p>
           <time dateTime="PT3M08S">3&apos; 08&quot;</time>
         </p>
-        <Player music={motor} />
+        <Player music={motorbreathMusic} />
       </header>
       <section>
         <h4>[Verse 1]</h4>

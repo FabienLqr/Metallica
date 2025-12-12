@@ -1,3 +1,6 @@
+import Player from "../../Player";
+import phantomLordMusic from "../../../assets/musics/killemall/phantomLord.mp3";
+
 function Phantom() {
   return (
     <>
@@ -6,6 +9,7 @@ function Phantom() {
         <p>
           <time dateTime="PT5M02S">5&apos; 02&quot;</time>
         </p>
+        <Player music={phantomLordMusic}/>
       </header>
       <section>
         <h4>[Verse 1]</h4>
