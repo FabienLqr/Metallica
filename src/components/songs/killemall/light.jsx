@@ -1,3 +1,6 @@
+import Player from "../../Player";
+import lightMusic from "../../../assets/musics/killemall/hitTheLights.mp3";
+
 function Light() {
   return (
     <>
@@ -6,6 +9,7 @@ function Light() {
         <p>
           <time dateTime="PT4M17S">4&apos; 17&quot;</time>
         </p>
+        <Player music={lightMusic} />
       </header>
       <section>
         <h4>[Verse 1]</h4>
