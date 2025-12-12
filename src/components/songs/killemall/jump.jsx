@@ -1,3 +1,6 @@
+import Player from "../../Player";
+import jumpMusic from "../../../assets/musics/killemall/jumpInTheFire.mp3";
+
 function Jump() {
   return (
     <>
@@ -6,6 +9,7 @@ function Jump() {
         <p>
           <time dateTime="PT4M41S">4&apos; 41&quot;</time>
         </p>
+        <Player music={jumpMusic} />
       </header>
       <section>
         <h4>[Verse 1]</h4>
