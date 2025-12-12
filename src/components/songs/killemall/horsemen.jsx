@@ -1,3 +1,6 @@
+import Player from "../../Player";
+import horsemenMusic from "../../../assets/musics/killemall/theFourHorsemen.mp3";
+
 function Horsemen() {
   return (
     <>
@@ -6,6 +9,7 @@ function Horsemen() {
         <p>
           <time dateTime="PT7M13S">7&apos; 13&quot;</time>
         </p>
+        <Player music={horsemenMusic} />
       </header>
       <section>
         <h4>[Verse 1]</h4>
