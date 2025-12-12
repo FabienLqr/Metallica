@@ -1,3 +1,6 @@
+import Player from "../../Player";
+import noRemorseMusic from "../../../assets/musics/killemall/noRemorse.mp3";
+
 function Remorse() {
   return (
     <>
@@ -6,6 +9,7 @@ function Remorse() {
         <p>
           <time dateTime="PT6M27S">6&apos; 27&quot;</time>
         </p>
+        <Player music={noRemorseMusic} />
       </header>
       <section>
         <h4>[Guitar Solo]</h4>
