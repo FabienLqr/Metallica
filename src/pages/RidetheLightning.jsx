@@ -28,7 +28,7 @@ function RideTheLightning() {
             <Link to="/ride_the_lightning/ride_the_lightning">
               2- Ride The Lightning
             </Link>
-            <Link to="/ride_the_lightning/from_whom_the_bell_tolls">
+            <Link to="/ride_the_lightning/for_whom_the_bell_tolls">
               3- For Whom The Bell Tolls
             </Link>
             <Link to="/ride_the_lightning/fade_to_black">4- Fade to Black</Link>

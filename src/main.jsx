@@ -73,7 +73,7 @@ const router = createBrowserRouter([
         children: [
           { path: "/ride_the_lightning/fight_fire_with_fire", element: <Fire />},
           { path: "/ride_the_lightning/ride_the_lightning", element: <Lightning />},
-          { path: "/ride_the_lightning/from_whom_the_bell_tolls", elelment: <Bell />},
+          { path: "/ride_the_lightning/for_whom_the_bell_tolls", elelment: <Bell />},
           { path: "/ride_the_lightning/fade_to_black", element: <Fade />},
           { path: "/ride_the_lightning/trapped_under_ice", element: <Trapped />},
           { path: "/ride_the_lightning/escape", element: <Escape />},
