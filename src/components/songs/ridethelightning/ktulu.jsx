@@ -11,7 +11,7 @@ function Ktulu () {
             <Player music={ktuluMusic} />
           </header>
           <section>
-            <h4>[Comes later]</h4>
+            <h4>[Pas de lyrics, juste profitez de ce solo de bass incroyable!]</h4>
           </section>
         </>)
 }
