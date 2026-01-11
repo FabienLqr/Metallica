@@ -33,6 +33,16 @@ import Jump from "./components/songs/killemall/jump.jsx";
 import Whiplash from "./components/songs/killemall/whiplash.jsx";
 import Anesthesia from "./components/songs/killemall/anesthesia.jsx";
 
+//import musics RTL
+import Fire from "./components/songs/ridethelightning/fire.jsx";
+import Lightning from "./components/songs/ridethelightning/lightnin.jsx";
+import Bell from "./components/songs/ridethelightning/bell.jsx";
+import Fade from "./components/songs/ridethelightning/fade.jsx";
+import Trapped from "./components/songs/ridethelightning/trapped.jsx";
+import Escape from "./components/songs/ridethelightning/escape.jsx";
+import Creeping from "./components/songs/ridethelightning/creeping.jsx";
+import Ktulu from "./components/songs/ridethelightning/ktulu.jsx";
+
 const router = createBrowserRouter([
   {
     element: <App />,
@@ -60,6 +70,16 @@ const router = createBrowserRouter([
       {
         path: "/ride_the_lightning",
         element: <RideTheLightning />,
+        children: [
+          { path: "/ride_the_lightning/fight_fire_with_fire", element: <Fire />},
+          { path: "/ride_the_lightning/ride_the_lightning", element: <Lightning />},
+          { path: "/ride_the_lightning/from_whom_the_bell_tolls", elelment: <Bell />},
+          { path: "/ride_the_lightning/fade_to_black", element: <Fade />},
+          { path: "/ride_the_lightning/trapped_under_ice", element: <Trapped />},
+          { path: "/ride_the_lightning/escape", element: <Escape />},
+          { path: "/ride_the_lightning/creeping_death", element: <Creeping />},
+          { path: "/ride_the_lightning/the_call_of_ktulu", element: <Ktulu />},
+        ]
       },
       {
         path: "/master_of_puppets",
