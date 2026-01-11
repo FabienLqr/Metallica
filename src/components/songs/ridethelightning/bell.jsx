@@ -7,7 +7,7 @@ function Bell() {
       <header className="albumHeader">
         <h3>For Whom The Bell Tolls</h3>
         <p>
-          <time dateTime="PT6M36S">6&apos; 36&quot;</time>
+          <time dateTime="PT5M10S">5&apos; 10&quot;</time>
         </p>
         <Player music={bellMusic} />
       </header>
