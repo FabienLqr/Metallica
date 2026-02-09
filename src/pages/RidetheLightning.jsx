@@ -48,7 +48,6 @@ function RideTheLightning() {
           <Outlet />
         </article>
       </section>
-      <p>Ride The Lightning songs</p>
     </>
   );
 }
