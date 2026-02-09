@@ -60,7 +60,8 @@ function Lightning() {
       <section>
         <h4>[Chorus]</h4>
         <p>
-          Flash before my eyes Now it&apos;s time to die
+          Flash before my eyes
+          <br /> Now it&apos;s time to die
           <br />
           Burning in my brain
           <br />I can feel the flame
