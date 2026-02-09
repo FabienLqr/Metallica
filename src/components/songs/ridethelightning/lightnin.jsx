@@ -1,5 +1,5 @@
 import Player from "../../Player";
-import lightningMusic from "../../../assets/musics/rideTheLightning/fightFireWithFire.mp3";
+import lightningMusic from "../../../assets/musics/rideTheLightning/rideTheLightning.mp3";
 
 function Lightning() {
   return (
