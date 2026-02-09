@@ -17,7 +17,9 @@ function RideTheLightning() {
         <article className="homeArticles">
           <p>
             L&apos;album Ride the Lightning est sortie le 27 juillet 1984.
-            C&apos;est le second album du groupe de Trash Metal.
+            C&apos;est le second album du groupe de Trash Metal. Il est sept
+            fois disque de platine et c&apos;est vendu à plusieurs millions
+            d&apos;exemplaires rien qu&apos;au États-Unis
           </p>
         </article>
         <article className="songs">
