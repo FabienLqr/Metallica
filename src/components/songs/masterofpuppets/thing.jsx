@@ -1,3 +1,6 @@
+import Player from "../../Player";
+import thingMusic from "../../../assets/musics/masterOfPuppets/theThingThatShouldNotBe.mp3";
+
 function Thing() {
   return (
     <>
@@ -6,6 +9,7 @@ function Thing() {
         <p>
             <time dateTime="PT6M37S">6&apos; 37&quot;</time>
         </p>
+        <Player music={thingMusic} />
       </header>
       <section>
         <h4>[Soon]</h4>

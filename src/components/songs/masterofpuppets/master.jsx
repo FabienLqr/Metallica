@@ -1,3 +1,6 @@
+import Player from "../../Player";
+import masterMusic from "../../../assets/musics/masterOfPuppets/masterOfPuppets.mp3";
+
 function Master() {
   return (
     <>
@@ -6,6 +9,7 @@ function Master() {
         <p>
             <time dateTime="PT8M37S">8&apos; 37&quot;</time>
         </p>
+        <Player music={masterMusic} />
       </header>
       <section>
         <h4>[Soon]</h4>

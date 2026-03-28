@@ -1,3 +1,6 @@
+import Player from "../../Player";
+import messiahMusic from "../../../assets/musics/masterOfPuppets/leperMessiah.mp3";
+
 function Messiah() {
   return (
     <>
@@ -6,6 +9,7 @@ function Messiah() {
         <p>
             <time dateTime="PT5M40S">5&apos; 40&quot;</time>
         </p>
+        <Player music={messiahMusic} />
       </header>
       <section>
         <h4>[Soon]</h4>

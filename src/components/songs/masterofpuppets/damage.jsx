@@ -1,3 +1,6 @@
+import Player from "../../Player";
+import damageMusic from "../../../assets/musics/masterOfPuppets/damageInc.mp3";
+
 function Damage() {
   return (
     <>
@@ -6,6 +9,7 @@ function Damage() {
         <p>
             <time dateTime="PT5M33S">5&apos; 33&quot;</time>
         </p>
+        <Player music={damageMusic} />
       </header>
       <section>
         <h4>[Soon]</h4>
