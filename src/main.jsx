@@ -43,6 +43,16 @@ import Escape from "./components/songs/ridethelightning/escape.jsx";
 import Creeping from "./components/songs/ridethelightning/creeping.jsx";
 import Ktulu from "./components/songs/ridethelightning/ktulu.jsx";
 
+//import musics MOP
+import Battery from "./components/songs/masterofpuppets/battery.jsx";
+import Master from "./components/songs/masterofpuppets/master.jsx";
+import Thing from "./components/songs/masterofpuppets/thing.jsx";
+import Sanitarium from "./components/songs/masterofpuppets/sanitarium.jsx";
+import Disposable from "./components/songs/masterofpuppets/disposable.jsx";
+import Messiah from "./components/songs/masterofpuppets/messiah.jsx";
+import Orion from "./components/songs/masterofpuppets/orion.jsx";
+import Damage from "./components/songs/masterofpuppets/damage.jsx";
+
 const router = createBrowserRouter([
   {
     element: <App />,
@@ -84,6 +94,17 @@ const router = createBrowserRouter([
       {
         path: "/master_of_puppets",
         element: <MasterofPuppets />,
+        children: [
+          {path: "/master_of_puppets/battery", element: <Battery />},
+          {path: "/master_of_puppets/master_of_puppets", element: <Master />},
+          {path: "/master_of_puppets/the_thing_that_should_not_be", element: <Thing />},
+          {path: "/master_of_puppets/welcome_home_sanitarium", element: <Sanitarium />},
+          {path: "/master_of_puppets/disposable_heroes", element: <Disposable />},
+          {path: "/master_of_puppets/leper_messiah", element: <Messiah />},
+          {path: "/master_of_puppets/orion", element: <Orion />},
+          {path: "/master_of_puppets/damage_inc", element: <Damage />},
+
+        ]
       },
       {
         path: "/justice_for_all",
