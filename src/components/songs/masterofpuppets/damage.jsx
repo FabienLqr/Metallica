@@ -4,7 +4,7 @@ function Damage() {
       <header className="albumHeader">
         <h3>Damage, Inc.</h3>
         <p>
-            <time dateTime="PT8M52S">8&apos; 52&quot;</time>
+            <time dateTime="PT5M33S">5&apos; 33&quot;</time>
         </p>
       </header>
       <section>

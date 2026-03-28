@@ -4,7 +4,7 @@ function Thing() {
       <header className="albumHeader">
         <h3>The Thing That Should Not Be</h3>
         <p>
-            <time dateTime="PT8M52S">8&apos; 52&quot;</time>
+            <time dateTime="PT6M37S">6&apos; 37&quot;</time>
         </p>
       </header>
       <section>

@@ -4,7 +4,7 @@ function Sanitariun() {
       <header className="albumHeader">
         <h3>Welcome Home (Sanitariun)</h3>
         <p>
-          <time dateTime="PT8M52S">8&apos; 52&quot;</time>
+          <time dateTime="PT6M28S">6&apos; 28&quot;</time>
         </p>
       </header>
       <section>
