@@ -110,7 +110,7 @@ function Thing() {
       </section>
       <section>
         <h4>[Instrumental Outro]</h4>
-      </section>
+      </section> 
     </>
   );
 }
